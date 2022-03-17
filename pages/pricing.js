@@ -1,15 +1,15 @@
 import AppLayout from 'components/layouts/AppLayout'
 import Link from 'next/link'
 
-const Home = () => {
+const Pricing = () => {
   return (
-    <AppLayout title='Home | Emmanuel'> 
-      <h1>Home Page</h1>
+    <AppLayout title='Pricing | Emmanuel'> 
+      <h1>Pricing Page</h1>
       <h1 className={'title'}>
-        Ir a <Link href="/about">About</Link>
+        Ir a <Link href="/">Inicio</Link>
       </h1>
     </AppLayout>
   )
 }
 
-export default Home
+export default Pricing
